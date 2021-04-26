@@ -23,7 +23,7 @@ header nav div.info-right-header ul li {
   padding: 0 10px;
 }
 header nav div.info-right-header ul li i {
-  color: #3852ff;
+  color: #687bfc;
   padding-right: 10px;
 }
 header nav div.info-right-header ul li a {
@@ -58,7 +58,6 @@ header nav div.info-center-header ul li i {
   font-size: 10px;
   padding-left: 3px;
   align-self: center;
-  cursor: pointer;
 }
 
 main {
@@ -93,7 +92,6 @@ main section.jumbotron div.conteiner div button {
   font-size: 22px;
   padding: 5px 25px;
   border: none;
-  cursor: pointer;
 }
 main section.jumbotron div.conteiner div .button-more {
   margin-top: 25px;
@@ -121,13 +119,106 @@ main section.menu-center div.conteiner h1 {
 }
 main section.menu-center div.conteiner ul {
   display: flex;
+  list-style: none;
+}
+main section.menu-center div.conteiner ul li.fix-center {
+  margin: 0 30px;
 }
 main section.menu-center div.conteiner ul li {
-  flex-basis: 30%;
+  flex-basis: 33.33%;
+  height: 340px;
+  background-color: white;
+}
+main section.menu-center div.conteiner ul li img {
+  width: 360px;
+}
+main section.menu-center div.conteiner ul li div.menu-center-container {
+  width: 90%;
+  margin: 5%;
+}
+main section.menu-center div.conteiner ul li div.menu-center-container h4 {
+  font-size: 20px;
+}
+main section.menu-center div.conteiner ul li div.menu-center-container h4 strong {
+  color: #687bfc;
+  font-style: italic;
+}
+main section.menu-center div.conteiner ul li div.menu-center-container p {
+  padding: 15px 0;
+  font-size: 18px;
+}
+main section.menu-center div.conteiner ul li div.menu-center-container a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #687bfc;
+}
+main section.menu-center div.offers {
+  width: 60%;
+  margin: 0 20%;
+}
+main section.menu-center div.offers ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+main section.menu-center div.offers ul li {
+  width: 50%;
+  height: 340px;
+  color: white;
+}
+main section.menu-center div.offers ul li h2 {
+  font-size: 30px;
+}
+main section.menu-center div.offers ul li p {
+  font-size: 20px;
+  padding: 30px 0;
+}
+main section.menu-center div.offers ul li button {
+  font-size: 16px;
+  font-weight: 100;
+  padding: 5px 25px;
+  background-color: white;
+  border: none;
+}
+main section.menu-center div.offers ul li.bg-primary {
+  background-color: purple;
+  padding: 5% 5%;
+}
+main section.menu-center div.offers ul li.bg-secondary {
+  background-image: url("img/wacom-painter.jpg");
+  background-size: cover;
+}
+main section.menu-center div.offers ul li.bg-secondary img {
+  width: 545px;
+}
+main section.menu-center div.offers ul li.bg-tertiary {
+  background-image: url("img/painter-master.jpg");
+  background-size: cover;
+}
+main section.menu-center div.offers ul li.bg-quaternary {
+  background-color: #5e5d5d;
+  padding: 5% 5%;
+}
+main section.menu-center div.offers ul li.bg-quinary {
+  background-color: #687bfc;
+  padding: 5% 5%;
+}
+main section.menu-center div.offers ul li.bg-senary {
+  background-image: url("img/business-education.jpg");
+  background-size: cover;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
 }
