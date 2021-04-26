@@ -1,3 +1,70 @@
+header {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+header nav {
+  color: white;
+  padding-top: 10px;
+  width: 60%;
+  margin: 0 20%;
+}
+header nav div.info-right-header {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav div.info-right-header ul {
+  display: flex;
+  list-style: none;
+}
+header nav div.info-right-header ul li {
+  display: flex;
+  padding: 0 10px;
+}
+header nav div.info-right-header ul li i {
+  color: #3852ff;
+  padding-right: 10px;
+}
+header nav div.info-right-header ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav div.info-center-header {
+  display: flex;
+  margin-top: 25px;
+}
+header nav div.info-center-header img {
+  width: 120px;
+  height: 32px;
+  cursor: pointer;
+}
+header nav div.info-center-header ul {
+  display: flex;
+  list-style: none;
+}
+header nav div.info-center-header ul li {
+  display: flex;
+  line-height: 40px;
+  padding: 0 20px;
+}
+header nav div.info-center-header ul li a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+header nav div.info-center-header ul li i {
+  font-size: 10px;
+  padding-left: 3px;
+  align-self: center;
+  cursor: pointer;
+}
+
+main {
+  padding-top: 100px;
+  background-image: url("/img/bg-painter-home.jpg");
+}
+
 * {
   margin: 0;
   padding: 0;
