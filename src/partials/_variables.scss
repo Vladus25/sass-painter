@@ -1,0 +1,31 @@
+
+// // Colori del testo
+// $color-primary: ;
+// $color-secondary: ;
+// $color-tertiary: ;
+// $color-quaternary: ;
+// $color-quinary: ;
+// $color-senary: ;
+// $color-septenary: ;
+// $color-octonary: ;
+// $color-nonary: ;
+// $color-denary: ;
+//
+// // Colori del background
+// $bg-color1: ;
+// $bg-color2: ;
+// $bg-color3: ;
+// $bg-color4: ;
+// $bg-color5: ;
+// $bg-color6: ;
+// $bg-color7: ;
+// $bg-color8: ;
+// $bg-color9: ;
+// $bg-color10: ;
+
+// Tutti mixin
+
+@mixin display-flex{
+  display: flex;
+  justify-content: center;
+}
