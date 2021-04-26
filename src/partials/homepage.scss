@@ -263,3 +263,112 @@ main{
     }
   }
 }
+
+// Footer
+footer{
+
+  // Tutti informazioni necesarie
+  .all-info{
+    background-color: rgb(236, 236, 236);
+
+    div.principal-info{
+      @include conteiner-center;
+      display: flex;
+
+      ul{
+        padding-top: 50px;
+        list-style: none;
+        flex-basis: 25%;
+
+        li{
+          padding: 5px 0 5px 10px;
+
+          strong{
+            color: $color-quaternary;
+            font-size: 18px;
+          }
+
+          a{
+            color: grey;
+            text-decoration: none;
+          }
+        }
+
+      }
+
+    }
+
+    // Social
+    div.social{
+      @include conteiner-center;
+      display: flex;
+      justify-content: flex-end;
+      padding: 25px 0;
+
+      i{
+        font-size: 35px;
+        padding: 0 8px;
+      }
+
+      i.fa-instagram-square{
+        color: $color-senary;
+      }
+
+      i.fa-facebook-square{
+        color: blue;
+      }
+
+      i.fa-twitter-square{
+        color: $color-secondary;
+      }
+
+      i.fa-youtube-square{
+        color: $color-septenary;
+      }
+
+      i.fa-pinterest-square{
+        color: $color-octonary;
+      }
+
+      i.fa-rss-square{
+        color: $color-nonary;
+      }
+    }
+  }
+  // Pie
+  section.pie{
+    background-color: rgb(24, 24, 24);
+
+    .pie-container{
+      @include conteiner-center;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 0;
+
+      .img-license{
+        margin-left: 10px;
+
+        img{
+          padding: 0 10px;
+          cursor: pointer;
+        }
+      }
+
+      .terms-of-use{
+        display: flex;
+        line-height: 60px;
+
+        a{
+          color: grey;
+          padding: 0 10px;
+          text-decoration: none;
+
+        }
+
+        h4{
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

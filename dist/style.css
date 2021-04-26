@@ -209,6 +209,89 @@ main section.menu-center div.offers ul li.bg-senary {
   background-size: cover;
 }
 
+footer .all-info {
+  background-color: #ececec;
+}
+footer .all-info div.principal-info {
+  width: 60%;
+  margin: 0 20%;
+  display: flex;
+}
+footer .all-info div.principal-info ul {
+  padding-top: 50px;
+  list-style: none;
+  flex-basis: 25%;
+}
+footer .all-info div.principal-info ul li {
+  padding: 5px 0 5px 10px;
+}
+footer .all-info div.principal-info ul li strong {
+  color: black;
+  font-size: 18px;
+}
+footer .all-info div.principal-info ul li a {
+  color: grey;
+  text-decoration: none;
+}
+footer .all-info div.social {
+  width: 60%;
+  margin: 0 20%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 0;
+}
+footer .all-info div.social i {
+  font-size: 35px;
+  padding: 0 8px;
+}
+footer .all-info div.social i.fa-instagram-square {
+  color: #fc4984;
+}
+footer .all-info div.social i.fa-facebook-square {
+  color: blue;
+}
+footer .all-info div.social i.fa-twitter-square {
+  color: #687bfc;
+}
+footer .all-info div.social i.fa-youtube-square {
+  color: red;
+}
+footer .all-info div.social i.fa-pinterest-square {
+  color: #bb0000;
+}
+footer .all-info div.social i.fa-rss-square {
+  color: orange;
+}
+footer section.pie {
+  background-color: #181818;
+}
+footer section.pie .pie-container {
+  width: 60%;
+  margin: 0 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+footer section.pie .pie-container .img-license {
+  margin-left: 10px;
+}
+footer section.pie .pie-container .img-license img {
+  padding: 0 10px;
+  cursor: pointer;
+}
+footer section.pie .pie-container .terms-of-use {
+  display: flex;
+  line-height: 60px;
+}
+footer section.pie .pie-container .terms-of-use a {
+  color: grey;
+  padding: 0 10px;
+  text-decoration: none;
+}
+footer section.pie .pie-container .terms-of-use h4 {
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
